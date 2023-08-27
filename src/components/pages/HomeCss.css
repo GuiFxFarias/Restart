@@ -1,0 +1,9 @@
+.imageSenior {
+  background-image: url("../images/SNPLocal.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 40vh;
+  width: 100vw;
+}
