@@ -5,13 +5,15 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <div className="logo"></div>
+        <div className="backgroundLogo">
+          <div className="logo"></div>
+        </div>
         <ul className="classItens">
           <li className="item">
             <Link to={"/"}>Home</Link>
           </li>
           <li className="item">
-            <Link to={"/Projects"}>Projects</Link>
+            <Link to={"/Projects"}>Dashboards</Link>
           </li>
           <li className="item">
             <Link to={"/About"}>About</Link>
